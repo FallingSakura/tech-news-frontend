@@ -39,9 +39,9 @@ const ToolCard: React.FC<ToolCardProps> = ({
   const bgColor = languageColors[language] || languageColors.Default;
   return (
     <div className="relative h-40 w-[400px] max-w-full transform overflow-hidden rounded-lg shadow-lg shadow-gray-200 transition-transform duration-300 hover:scale-105 sm:w-80 mdlg:h-48 mdlg:w-96">
-      <div className="absolute overflow-y-auto overflow-x-clip no-scrollbar inset-0 break-words bg-white p-6 transition-opacity duration-300 hover:bg-yellow-50 mdlg:p-8">
+      <div className="no-scrollbar absolute inset-0 overflow-y-auto overflow-x-clip break-words bg-white p-6 transition-opacity duration-300 hover:bg-yellow-50 mdlg:p-8">
         <div
-          className="absolute right-0 top-0 inline-block translate-x-1.5 transform cursor-default rounded-md px-3.5 py-1 sm:px-3 sm:py-1 font-[Inder] text-xs font-semibold text-gray-800 mdlg:-translate-y-0.5 mdlg:rounded-lg mdlg:px-3 mdlg:py-2 mdlg:text-sm"
+          className="absolute right-0 top-0 inline-block translate-x-1.5 cursor-default rounded-md px-3.5 py-1 font-[Inder] text-xs font-semibold text-gray-800 sm:px-3 sm:py-1 mdlg:-translate-y-0.5 mdlg:rounded-lg mdlg:px-3 mdlg:py-2 mdlg:text-sm"
           style={{
             backgroundColor: `${bgColor}99`,
           }}
@@ -65,7 +65,7 @@ const ToolCard: React.FC<ToolCardProps> = ({
             {title.split("/")[1]}
           </Link>
         </p>
-        <div className="mt-2 mdlg:mt-3 flex -translate-x-1 gap-3">
+        <div className="mt-2 flex -translate-x-1 gap-3 mdlg:mt-3">
           <TagButton number={stars} color={"#FFD43B"}>
             <FontAwesomeIcon
               icon={faStar}
