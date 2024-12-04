@@ -12,10 +12,10 @@ export default function About() {
         </p>
         <br />
         <ol className="translate-x-4 list-disc font-[LXGW]">
-          <li>管理：Enoch</li>
-          <li>前端：Ficon</li>
-          <li>后端：Austin</li>
-          <li>运维：Yan</li>
+          <li>管理：<a className="text-blue-400 hover:text-blue-700 transition-all duration-300" href="https://space.bilibili.com/282739748">Enoch</a></li>
+          <li>前端：<a className="text-blue-400 hover:text-blue-700 transition-all duration-300" href="https://github.com/FallingSakura">Ficon</a></li>
+          <li>后端：<a className="text-blue-400 hover:text-blue-700 transition-all duration-300" href="https://github.com/wangsnoopy">Austin</a></li>
+          <li>运维：<a className="text-blue-400 hover:text-blue-700 transition-all duration-300" href="https://github.com/YanXiao3020y">Yan</a></li>
         </ol>
         <br />
       </div>
