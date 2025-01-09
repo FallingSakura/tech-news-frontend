@@ -1,20 +1,9 @@
 "use client";
-import withLoadingError from "@/components/withLoadingError";
+import withLoadingError from "@/components/loading/withLoadingError";
 import ProductCard from "@/components/ProductCard";
 import { motion } from "framer-motion";
+import { Product } from "@/types/product";
 import React from "react";
-
-type Product = {
-  id: string;
-  author: string;
-  date_published: string;
-  guid: string;
-  title: string;
-  url: string;
-  icon_url: string;
-  tag_line: string;
-  description: Array<string>;
-};
 
 const transformData = (res: Product[]) => {
   res.forEach((item) => {

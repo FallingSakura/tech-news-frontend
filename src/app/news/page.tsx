@@ -1,16 +1,10 @@
 "use client";
 import { useRef, useEffect } from "react";
-import withLoadingError from "@/components/withLoadingError";
+import withLoadingError from "@/components/loading/withLoadingError";
 import NewCard from "@/components/NewCard";
+import { New } from "@/types/new"
 import React from "react";
 
-type New = {
-  _id: string;
-  link: string;
-  published: string;
-  title: string;
-  icon_url: string;
-};
 
 function formatData(res: New[]) {
   const validExtensions = ["svg", "png", "jpg", "jpeg", "ico", "webp", "gif"];

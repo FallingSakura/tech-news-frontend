@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import useLoadFunction from "@/components/LoadFunction";
+import useLoadFunction from "@/hooks/useLoadFunction";
 import Processing from "./ProcessingCmp";
 import ErrorPage from "./ErrorPage";
 
@@ -13,6 +13,7 @@ function withLoadingError<T>(
   options: WithLoadingErrorOptions,
 ) {
   const EnhancedComponent: React.FC = () => {
+    // get loading state
     const { loading, error, data } = useLoadFunction<T>(options.url);
 
     if (loading) {

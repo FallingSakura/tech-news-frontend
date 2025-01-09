@@ -1,6 +1,6 @@
 "use client";
 import ToolCard from "@/components/ToolCard";
-import withLoadingError from "@/components/withLoadingError";
+import withLoadingError from "@/components/loading/withLoadingError";
 import { motion } from "framer-motion";
 type Tool = {
   _id: string;
