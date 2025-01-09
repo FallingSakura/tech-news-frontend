@@ -3,8 +3,8 @@ import React from "react";
 import Image from "next/image";
 import Favicon from "./FavIcon";
 import Link from "next/link";
-import TagButton from "./TagButton";
-import ToggleButton from "./ToggleButton";
+import TagButton from "../tool-card/TagButton";
+import ToggleButton from "../mobile-component/ToggleButton";
 import { useState, useEffect } from "react";
 function NavBar() {
   const navList: Array<string> = ["NEWS", "PRODUCTS", "TOOLS"];

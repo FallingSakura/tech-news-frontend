@@ -1,6 +1,6 @@
 "use client";
-import CarouselArea from "@/components/CarouselArea";
-import TrendingsArea from "@/components/TrendingsArea";
+import CarouselArea from "@/components/main-page/CarouselArea";
+import TrendingsArea from "@/components/main-page/TrendingsArea";
 import withLoadingError from "@/components/loading/withLoadingError";
 import { DataType } from "@/types/data";
 

@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 function ToggleButton({
   togglNav,
   toggle,
@@ -13,12 +11,6 @@ function ToggleButton({
         togglNav ? "" : ""
       }`}
     >
-      {/* <div
-        className="flex justify-center items-center cursor-pointer h-[75px] w-[75px] text-3xl"
-        onClick={toggle}
-      >
-        <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>
-      </div> */}
       <div
         className="relative flex h-[75px] w-[75px] cursor-pointer items-center justify-center text-3xl"
         onClick={toggle}

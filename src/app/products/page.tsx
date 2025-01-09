@@ -1,6 +1,6 @@
 "use client";
 import withLoadingError from "@/components/loading/withLoadingError";
-import ProductCard from "@/components/ProductCard";
+import ProductCard from "@/components/product-card/ProductCard";
 import { motion } from "framer-motion";
 import { Product } from "@/types/product";
 import React from "react";

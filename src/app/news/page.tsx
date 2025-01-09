@@ -1,7 +1,7 @@
 "use client";
 import { useRef, useEffect } from "react";
 import withLoadingError from "@/components/loading/withLoadingError";
-import NewCard from "@/components/NewCard";
+import NewCard from "@/components/new-card/NewCard";
 import { New } from "@/types/new"
 import React from "react";
 
